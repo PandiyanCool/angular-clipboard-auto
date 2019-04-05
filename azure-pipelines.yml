@@ -36,6 +36,6 @@ steps:
 - task: Npm@1
   inputs:
     commands: publish
-    publishEndpoint: '<name of service connection goes here>'
+    publishEndpoint: 'angular-clipboard-auto-pipeline'
   condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
   displayName: 'Publish to NPM'
