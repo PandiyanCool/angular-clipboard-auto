@@ -32,3 +32,10 @@ steps:
     includeRootFolder: false
 
 - task: PublishBuildArtifacts@1
+
+ task: Npm@1
+  inputs:
+    commands: publish
+    publishEndpoint: '<name of service connection goes here>'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  displayName: 'Publish to NPM'
