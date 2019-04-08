@@ -49,10 +49,14 @@ Once your library is imported, you can use its components, directives and pipes 
 
 ```xml
 <!-- You can now use your library component in app.component.html -->
-<h1>
-  {{title}}
-</h1>
-<sampleComponent></sampleComponent>
+  
+<!-- Add attribute appCopy in your html code -->
+  
+<input appCopy type="text" #text1 value="hello world">
+  
+<!-- And refer font awesome in your index.html to view copy symbol -->
+  
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 ```
 
 ## Development
