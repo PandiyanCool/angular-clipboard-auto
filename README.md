@@ -1,4 +1,4 @@
-![pipeline](https://dev.azure.com/pandiyancool/Angular%20Clipboard%20auto/_apis/build/status/Angular%20Clipboard%20auto-CI?branchName=master) ![npm](https://img.shields.io/npm/dt/angular-clipboard-auto.svg)
+![pipeline](https://dev.azure.com/pandiyancool/Angular%20Clipboard%20auto/_apis/build/status/Angular%20Clipboard%20auto-CI?branchName=master) ![npm](https://img.shields.io/npm/dt/angular-clipboard-auto.svg) ![npm](https://img.shields.io/npm/v/angular-clipboard-auto.svg)
 
 # angular-clipboard-auto
 
