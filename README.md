@@ -58,6 +58,9 @@ Once your library is imported, you can use its components, directives and pipes 
   
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
 ```
+## Support
+If you think, this package helps you in some way. Please feel free to [star the project](https://github.com/PandiyanCool/angular-clipboard-auto) in Github.
+
 
 ## Development
 
