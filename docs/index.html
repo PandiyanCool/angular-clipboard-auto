@@ -30,6 +30,7 @@
                <div class="content getting-started">
                    <div class="content-data">
 
+<p><img src="https://dev.azure.com/pandiyancool/Angular%20Clipboard%20auto/_apis/build/status/Angular%20Clipboard%20auto-CI?branchName=master" alt="pipeline" class="img-responsive"> <img src="https://img.shields.io/npm/dt/angular-clipboard-auto.svg" alt="npm" class="img-responsive"> <img src="https://img.shields.io/npm/v/angular-clipboard-auto.svg" alt="npm" class="img-responsive"></p>
 <h1 id="angular-clipboard-auto">angular-clipboard-auto</h1>
 <h2 id="installation">Installation</h2>
 <p>To install this library, run:</p>
@@ -59,10 +60,16 @@ import { ClipboardModule } from &#39;angular-clipboard-auto&#39;;
 })
 export class AppModule { }</code></pre></div><p>Once your library is imported, you can use its components, directives and pipes in your Angular application:</p>
 <div><pre class="line-numbers"><code class="language-xml">&lt;!-- You can now use your library component in app.component.html --&gt;
-&lt;h1&gt;
-  {{title}}
-&lt;/h1&gt;
-&lt;sampleComponent&gt;&lt;/sampleComponent&gt;</code></pre></div><h2 id="development">Development</h2>
+
+&lt;!-- Add attribute appCopy in your html code --&gt;
+
+&lt;input appCopy type=&quot;text&quot; #text1 value=&quot;hello world&quot;&gt;
+
+&lt;!-- And refer font awesome in your index.html to view copy symbol --&gt;
+
+&lt;link href=&quot;https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; crossorigin=&quot;anonymous&quot;&gt;</code></pre></div><h2 id="support">Support</h2>
+<p>If you think, this package helps you in some way. Please feel free to <a href="https://github.com/PandiyanCool/angular-clipboard-auto">star the project</a> in Github.</p>
+<h2 id="development">Development</h2>
 <p>To generate all <code>*.js</code>, <code>*.d.ts</code> and <code>*.metadata.json</code> files:</p>
 <div><pre class="line-numbers"><code class="language-bash">$ npm run build</code></pre></div><p>To lint all <code>*.ts</code> files:</p>
 <div><pre class="line-numbers"><code class="language-bash">$ npm run lint</code></pre></div><h2 id="license">License</h2>
