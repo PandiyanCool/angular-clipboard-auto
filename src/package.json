@@ -14,8 +14,7 @@
     "copy",
     "clipboard",
     "easy,
-    "powerful",
-    "ng2-clipboard"
+    "powerful"
   ],
   "license": "MIT",
   "bugs": {
