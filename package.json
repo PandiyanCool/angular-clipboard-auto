@@ -23,7 +23,10 @@
     "email": "pandiyanit7@gmail.com"
   },
   "keywords": [
-    "angular"
+    "angular",
+    "clipboard",
+    "copy",
+    "easy"
   ],
   "license": "MIT",
   "bugs": {
