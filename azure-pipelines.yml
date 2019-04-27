@@ -11,20 +11,9 @@ steps:
   inputs:
     command: install
 
-# - script: npm run lint
-#   displayName: 'Run linting'
-
 - script: npm run build
   displayName: 'Transpile TS files'
 
-# - script: npm run test:ci
-#   displayName: 'Run Unit Tests'
-
-# - task: PublishTestResults@2
-#   inputs:
-#     testRunner: JUnit
-#     testResultsFiles: ./junit.xml
-#   condition: succeededOrFailed()
 
 - task: ArchiveFiles@2
   inputs:
