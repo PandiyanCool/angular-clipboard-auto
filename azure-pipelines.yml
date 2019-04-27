@@ -28,7 +28,3 @@ steps:
   condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
   displayName: 'Publish to NPM'
   
-- task: Twitter@1
-  inputs:
-    TwitterEndPoint: 'c0f39942-cc2e-4f74-bdec-e8f695635235'
-    Message: 'Angular Clipboard auto got a new build, try the new version and share your feedback via @efficientuser @pandiyan_cool'
