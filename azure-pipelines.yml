@@ -7,7 +7,7 @@ pool:
 #     versionSpec: '10.x'
 #   displayName: 'Install Node.js'
 
-- task: UseNode@1
+- task: UseNode@0
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
