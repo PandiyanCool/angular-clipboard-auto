@@ -2,6 +2,10 @@
 
 # angular-clipboard-auto
 
+
+<a href="https://www.producthunt.com/posts/angular-clipboard-auto?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-angular&#0045;clipboard&#0045;auto" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=165286&theme=light" alt="Angular&#0032;Clipboard&#0032;Auto - Create&#0032;a&#0032;copy&#0032;icon&#0032;to&#0032;your&#0032;text&#0032;element&#0032;with&#0032;one&#0032;attribute&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+
 ## Installation
 
 To install this library, run:
